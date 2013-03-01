@@ -1,0 +1,1 @@
+module.exports = require('./lib/jugglingdb-rest-api/adapter.js');

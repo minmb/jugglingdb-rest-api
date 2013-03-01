@@ -1,0 +1,24 @@
+{
+  "name": "jugglingdb-rest-api",
+  "version": "0.0.1",
+  "description": "JugglingDB adapter for REST API consumption",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit test/adapter_test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/minmb/jugglingdb-rest-api.git"
+  },
+  "author": "Martin Häger",
+  "license": "MIT",
+  "dependencies": {
+    "jugglingdb": "git://github.com/minmb/jugglingdb.git"
+  , "restify": "*"
+  , "inflection": "*"
+  },
+  "devDependencies": {
+    "nodeunit": "*"
+  , "bunyan": "*"
+  }
+}

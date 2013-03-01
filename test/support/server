@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+var MockAPI = require('./mock_api.js');
+
+var api = new MockAPI;
+
+api.listen(8080, function() {
+    this.log.info('started');
+});
